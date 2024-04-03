@@ -1,16 +1,43 @@
-import React from 'react'
-import "./Login.css"
+// import React from 'react'
+// import "./Login.css"
+// import { accessUrl } from './spotify'
+//  function Login() {
+//   return (
 
-export default function Login() {
-  return (
 
-
-    <div className = "login">
-     <img src = "https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg" alt = "Spotify" />
+//     <div className = "login">
+//      <img src = "https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg" alt = "Spotify" />
    
-<a href = "spotify.com">LOGIN TO SPOTIFY</a>
+// <a href ={accessUrl}>LOGIN TO SPOTIFY</a>
 
+//     </div>
+
+//   );
+// }
+
+
+// export default Login;
+
+
+
+
+
+
+
+import React from "react";
+import "./Login.css";
+import { accessUrl } from "./spotify";
+
+function Login() {
+  return (
+    <div className="login">
+      <img
+        src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"
+        alt=""
+      />
+      <a href={accessUrl}>LOGIN TO SPOTIFY</a>
     </div>
-
-  )
+  );
 }
+
+export default Login;
